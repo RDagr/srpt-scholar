@@ -1,0 +1,45 @@
+fragment TopicParts on Topic {
+  __typename
+  moduleNumber
+  slug
+  nameAyurveda
+  nameDevanagari
+  nameEnglish
+  paper
+  semester
+  units
+  category
+  references
+  orientation {
+    __typename
+    why
+    examWeight
+  }
+  definition {
+    __typename
+    ayurveda
+    modern
+  }
+  shlokas {
+    __typename
+    source
+    devanagari
+    transliteration
+    meaning
+    clinicalNote
+  }
+  dualCols {
+    __typename
+    title
+    ayurvedaContent
+    modernContent
+  }
+  examBullets
+  mnemonics {
+    __typename
+    title
+    acronym
+    expansions
+  }
+  body
+}

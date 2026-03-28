@@ -572,10 +572,76 @@ const m1Content: TopicContent = {
 };
 
 // ────────────────────────────────────────────────────────
-// Content registry — add new topics here
+// Import all module content files (m2–m32)
+// ────────────────────────────────────────────────────────
+import { getM2Content } from "./content/m2";
+import { getM3Content } from "./content/m3";
+import { getM4Content } from "./content/m4";
+import { getM5Content } from "./content/m5";
+import { getM6Content } from "./content/m6";
+import { getM7Content } from "./content/m7";
+import { getM8Content } from "./content/m8";
+import { getM9Content } from "./content/m9";
+import { getM10Content } from "./content/m10";
+import { getM11Content } from "./content/m11";
+import { getM12Content } from "./content/m12";
+import { getM13Content } from "./content/m13";
+import { getM14Content } from "./content/m14";
+import { getM15Content } from "./content/m15";
+import { getM16Content } from "./content/m16";
+import { getM17Content } from "./content/m17";
+import { getM18Content } from "./content/m18";
+import { getM19Content } from "./content/m19";
+import { getM20Content } from "./content/m20";
+import { getM21Content } from "./content/m21";
+import { getM22Content } from "./content/m22";
+import { getM23Content } from "./content/m23";
+import { getM24Content } from "./content/m24";
+import { getM25Content } from "./content/m25";
+import { getM26Content } from "./content/m26";
+import { getM27Content } from "./content/m27";
+import { getM28Content } from "./content/m28";
+import { getM29Content } from "./content/m29";
+import { getM30Content } from "./content/m30";
+import { getM31Content } from "./content/m31";
+import { getM32Content } from "./content/m32";
+
+// ────────────────────────────────────────────────────────
+// Content registry — all 32 modules
 // ────────────────────────────────────────────────────────
 const contentRegistry: Record<string, TopicContent> = {
   m1: m1Content,
+  m2: getM2Content() as TopicContent,
+  m3: getM3Content() as TopicContent,
+  m4: getM4Content() as TopicContent,
+  m5: getM5Content() as TopicContent,
+  m6: getM6Content() as TopicContent,
+  m7: getM7Content() as TopicContent,
+  m8: getM8Content() as TopicContent,
+  m9: getM9Content() as TopicContent,
+  m10: getM10Content() as TopicContent,
+  m11: getM11Content() as TopicContent,
+  m12: getM12Content() as TopicContent,
+  m13: getM13Content() as TopicContent,
+  m14: getM14Content() as TopicContent,
+  m15: getM15Content() as TopicContent,
+  m16: getM16Content() as TopicContent,
+  m17: getM17Content() as TopicContent,
+  m18: getM18Content() as TopicContent,
+  m19: getM19Content() as TopicContent,
+  m20: getM20Content() as TopicContent,
+  m21: getM21Content() as TopicContent,
+  m22: getM22Content() as TopicContent,
+  m23: getM23Content() as TopicContent,
+  m24: getM24Content() as TopicContent,
+  m25: getM25Content() as TopicContent,
+  m26: getM26Content() as TopicContent,
+  m27: getM27Content() as TopicContent,
+  m28: getM28Content() as TopicContent,
+  m29: getM29Content() as TopicContent,
+  m30: getM30Content() as TopicContent,
+  m31: getM31Content() as TopicContent,
+  m32: getM32Content() as TopicContent,
 };
 
 export function getTopicContent(moduleId: string): TopicContent | null {

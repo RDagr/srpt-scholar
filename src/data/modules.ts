@@ -38,7 +38,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m3",
@@ -51,7 +51,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 4,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m4",
@@ -64,7 +64,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 4,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m5",
@@ -77,7 +77,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m6",
@@ -90,7 +90,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 5,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m7",
@@ -103,7 +103,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 4,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m8",
@@ -116,7 +116,7 @@ export const modules: Module[] = [
     semester: 3,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
 
   // ── SEMESTER 4 — PAPER 1: PRASUTI TANTRA contd. ──
@@ -131,7 +131,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 2,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m10",
@@ -144,7 +144,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m11",
@@ -157,7 +157,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m12",
@@ -170,7 +170,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m13",
@@ -183,7 +183,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 4,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m14",
@@ -196,7 +196,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 4,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m15",
@@ -209,7 +209,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 3,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m16",
@@ -222,7 +222,7 @@ export const modules: Module[] = [
     semester: 4,
     units: 2,
     category: "prasuti",
-    hasContent: false,
+    hasContent: true,
   },
 
   // ── SEMESTER 5 — PAPER 2: STREE ROGA (Gynaecology) ──
@@ -237,7 +237,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 4,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m18",
@@ -250,7 +250,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 3,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m19",
@@ -263,7 +263,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 5,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m20",
@@ -276,7 +276,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 3,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m21",
@@ -289,7 +289,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 4,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m22",
@@ -302,7 +302,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 3,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m23",
@@ -315,7 +315,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 3,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m24",
@@ -328,7 +328,7 @@ export const modules: Module[] = [
     semester: 5,
     units: 3,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
 
   // ── SEMESTER 6 — PAPER 3 & 4 ──
@@ -343,7 +343,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 2,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m26",
@@ -356,7 +356,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 4,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m27",
@@ -369,7 +369,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 3,
     category: "basic",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m28",
@@ -382,7 +382,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 3,
     category: "basic",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m29",
@@ -395,7 +395,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 3,
     category: "basic",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m30",
@@ -408,7 +408,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 4,
     category: "streeroga",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m31",
@@ -421,7 +421,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 3,
     category: "research",
-    hasContent: false,
+    hasContent: true,
   },
   {
     id: "m32",
@@ -434,7 +434,7 @@ export const modules: Module[] = [
     semester: 6,
     units: 2,
     category: "research",
-    hasContent: false,
+    hasContent: true,
   },
 ];
 

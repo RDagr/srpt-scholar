@@ -10,6 +10,7 @@ import MnemonicCard from "@/components/MnemonicCard";
 import ComparisonTable from "@/components/ComparisonTable";
 import CalloutBox from "@/components/CalloutBox";
 import DiagramWrap from "@/components/DiagramWrap";
+import TopicHeroImage from "@/components/TopicHeroImage";
 
 // Import topic-specific content
 import { getTopicContent } from "./topicContent";
@@ -31,6 +32,9 @@ export default function TopicPage({ module }: TopicPageProps) {
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      {/* 3D Hero Image */}
+      <TopicHeroImage moduleId={module.id} title={module.nameEnglish} />
+
       {/* 1. Hero Band */}
       <HeroBand
         moduleNumber={module.number}
